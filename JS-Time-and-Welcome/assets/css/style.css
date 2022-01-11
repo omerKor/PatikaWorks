@@ -1,0 +1,57 @@
+:root {
+  --clrBlack: #000000;
+  --clrOrange: #e98208;
+}
+
+body {
+  background: var(--clrBlack);
+}
+
+.text__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.text__1 .clock {
+  position: relative;
+  color: var(--clrOrange);
+  font-size: 60px;
+}
+
+.text__1 .text__2 {
+  position: relative;
+  text-align: center;
+  color: var(--clrOrange);
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+  max-width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-transform: capitalize;
+}
+
+.text__1 img {
+  margin-top: 120px;
+  width: 17%;
+}
