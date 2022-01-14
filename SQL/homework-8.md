@@ -8,7 +8,7 @@ CREATE TABLE employee (
 
 ## 2: Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
-*insert into employee (id, name, birthday, email) values (1, 'Loren Arnot', '1991-01-08', 'larnot0@usda.gov');
+* insert into employee (id, name, birthday, email) values (1, 'Loren Arnot', '1991-01-08', 'larnot0@usda.gov');
 insert into employee (id, name, birthday, email) values (2, 'Karrie Kimmins', '1950-07-29', 'kkimmins1@mediafire.com');
 insert into employee (id, name, birthday, email) values (3, 'Teirtza Coldicott', '1999-11-24', 'tcoldicott2@buzzfeed.com');
 insert into employee (id, name, birthday, email) values (4, 'Iorgos Earwicker', '1987-12-16', 'iearwicker3@constantcontact.com');
