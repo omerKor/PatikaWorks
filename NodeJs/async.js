@@ -73,6 +73,7 @@ setTimeout(() => {
             const promise1 = new Promise((resolve, reject) => {
                 books.push(newBook);
                 resolve(books);
+                reject("Bir Hata Oluştu");
             })
             return promise1;
         };
