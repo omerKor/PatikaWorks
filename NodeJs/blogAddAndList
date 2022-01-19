@@ -9,7 +9,6 @@ function getBlogData(data) {
         }
     })
 }
-
 function cleanBlogData(receivedData) {
     return new Promise((resolve, reject) => {
         console.log("Blog verileri düzenleniyor..");
@@ -65,6 +64,5 @@ async function showBlogs() {
     } catch (error) {
         console.log(error);
     }
-
 }
 showBlogs();
